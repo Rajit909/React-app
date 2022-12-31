@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 
 
 function TextForm(props) {
-
   
   const handleUpClick = ()=>{
     let newText = text.toLocaleUpperCase();
