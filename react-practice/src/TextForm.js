@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 
 
-
 function TextForm(props) {
   
   const handleUpClick = ()=>{
@@ -13,7 +12,7 @@ function TextForm(props) {
   const handleOnChange = (event)=>{
     setText(event.target.value)
   }
-  
+
   const [ text, setText] = useState("Enter text here")
 
   return (
