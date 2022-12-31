@@ -6,6 +6,7 @@ import Navbar from './Navbar';
 function App() {
   return (
     <>
+    
     <Navbar title="Home" linkOne="About" linkTwo="TextUtils"/>
     <TextForm/>
     </>
