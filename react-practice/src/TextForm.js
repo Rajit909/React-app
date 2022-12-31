@@ -9,7 +9,7 @@ function TextForm(props) {
     setText(newText)
   }
   
-  
+
   const handleOnChange = (event)=>{
     setText(event.target.value)
   }
