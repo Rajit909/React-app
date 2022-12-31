@@ -13,6 +13,7 @@ function TextForm(props) {
   const handleOnChange = (event)=>{
     setText(event.target.value)
   }
+  
   const [ text, setText] = useState("Enter text here")
 
   return (
