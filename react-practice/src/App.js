@@ -1,12 +1,14 @@
 import './App.css';
-import Home from './Home';
+import TextForm from './TextForm';
 import Navbar from './Navbar';
+
+
 
 function App() {
   return (
     <>
-    <Navbar title="Home"/>
-    <Home/>
+    <Navbar title="Home" linkOne="About" linkTwo="TextUtils"/>
+    <TextForm/>
     </>
   );
 }
